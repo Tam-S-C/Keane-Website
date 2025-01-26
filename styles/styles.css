@@ -1,0 +1,137 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0eeed;
+  color: #003d51;
+  text-align: center;
+  font-family: "Rubik", "Roboto", serif;
+}
+
+/* HEADER */
+
+header {
+  margin: 16px;
+}
+
+li {
+  margin: 8px;
+  list-style-type: none;
+}
+
+a {
+  color: #003d51;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*MAIN*/
+
+main {
+  margin: 24px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  color: #086e83;
+}
+
+h3 {
+  color: #a70a94;
+}
+
+p {
+  font-size: 16px;
+}
+
+.articulos {
+  margin: 16px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/*FOOTER*/
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/*IMAGENES e ICONOS*/
+
+.logo {
+  width: 160px;
+  margin: 8px;
+}
+
+.fotosBio {
+  width: 300px;
+  border-radius: 16px;
+  margin: 16px;
+}
+
+.fotosDeFondo {
+  width: 100%;
+}
+
+.fotosDeCostado {
+  width: 100%;
+}
+
+.iconosRedes {
+  height: 32px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.videoEdit {
+  width: 320px;
+  border-radius: 16px;
+  margin: 16px;
+}
+
+.musicEdit {
+  width: 24%;
+  height: 160px;
+  border-radius: 16px;
+  margin: 16px;
+}
+
+/*CONTACTO*/
+
+form label {
+  color: #086e83;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin: 4px;
+  border-radius: 16px;
+  border: none;
+  background-color: #c1d6e6;
+  width: 40%;
+  text-align: center;
+}
+
+.boton {
+  background-color: #086e83;
+  color: #f0eeed;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 8px;
+}
