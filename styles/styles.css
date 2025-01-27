@@ -6,9 +6,6 @@
   padding: 0;
 }
 
-/*Se utilizó margin y padding para el reset, y margin en algunas ocasiones porque fue visto
-y utilizado en las clases grabadas y otorgado el permiso en la última clase de css en vivo*/
-
 body {
   background-color: #f0eeed;
   color: #003d51;
@@ -32,7 +29,6 @@ a {
 
 h1 {
   font-size: 36px;
-  margin: 16px;
 }
 
 h2 {
@@ -45,16 +41,11 @@ h3 {
 
 p {
   font-size: 16px;
-  margin: 8px;
 }
 
 .discos {
   color: #a70a94;
   font-style: italic;
-}
-
-.articulos {
-  margin: 24px;
 }
 
 /*FOOTER*/
@@ -68,13 +59,11 @@ footer {
 
 .logo {
   width: 160px;
-  margin: 8px;
 }
 
 .fotosBio {
   width: 300px;
   border-radius: 16px;
-  margin: 16px;
 }
 
 .fotosDeFondo {
@@ -87,20 +76,17 @@ footer {
 
 .iconosRedes {
   height: 32px;
-  margin: 16px;
 }
 
 .videoEdit {
   width: 320px;
   border-radius: 16px;
-  margin: 16px;
 }
 
 .musicEdit {
   width: 24%;
   height: 160px;
   border-radius: 16px;
-  margin: 16px;
 }
 
 /*CONTACTO*/
@@ -116,8 +102,6 @@ textarea {
   border: none;
   background-color: #c1d6e6;
   width: 40%;
-  padding: 8px;
-  margin: 4px;
   text-align: center;
 }
 
@@ -126,7 +110,5 @@ textarea {
   color: #f0eeed;
   font-weight: bold;
   font-size: 16px;
-  padding: 8px;
-  margin: 8px;
   border-radius: 16px;
 }
