@@ -11,9 +11,22 @@ body {
   color: #003d51;
   text-align: center;
   font-family: "Rubik", "Roboto", serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 /* HEADER */
+
+header {
+  margin-top: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 8px;
+  font-size: 24px;
+}
 
 li {
   list-style-type: none;
@@ -29,18 +42,22 @@ a {
 
 h1 {
   font-size: 36px;
+  padding: 8px;
 }
 
 h2 {
   color: #086e83;
+  padding: 8px;
 }
 
 h3 {
   color: #a70a94;
+  padding: 4px;
 }
 
 p {
   font-size: 16px;
+  padding: 8px;
 }
 
 .discos {
@@ -48,11 +65,19 @@ p {
   font-style: italic;
 }
 
+.articulos {
+  color: #086e83;
+  width: 50%;
+  margin: auto;
+}
+
 /*FOOTER*/
 
 footer {
+  margin-top: 16px;
   text-align: center;
   font-size: 14px;
+  position: relative;
 }
 
 /*IMAGENES e ICONOS*/
@@ -64,6 +89,7 @@ footer {
 .fotosBio {
   width: 300px;
   border-radius: 16px;
+  padding: 8px;
 }
 
 .fotosDeFondo {
@@ -72,21 +98,29 @@ footer {
 
 .fotosDeCostado {
   width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  bottom: 24px;
 }
 
 .iconosRedes {
   height: 32px;
+  padding: 0 16px;
+  margin: 8px;
 }
 
 .videoEdit {
   width: 320px;
   border-radius: 16px;
+  margin: 8px;
 }
 
 .musicEdit {
   width: 24%;
   height: 160px;
   border-radius: 16px;
+  margin: 8px;
 }
 
 /*CONTACTO*/
@@ -103,6 +137,8 @@ textarea {
   background-color: #c1d6e6;
   width: 40%;
   text-align: center;
+  padding: 8px;
+  margin: 8px;
 }
 
 .boton {
@@ -111,4 +147,5 @@ textarea {
   font-weight: bold;
   font-size: 16px;
   border-radius: 16px;
+  padding: 8px;
 }
