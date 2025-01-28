@@ -76,8 +76,11 @@ p {
 footer {
   margin-top: 16px;
   text-align: center;
-  font-size: 14px;
   position: relative;
+}
+
+footer p {
+  font-size: 14px;
 }
 
 /*IMAGENES e ICONOS*/
@@ -101,7 +104,7 @@ footer {
   display: flex;
   position: absolute;
   z-index: -1;
-  bottom: 24px;
+  bottom: 0px;
 }
 
 .iconosRedes {
