@@ -40,6 +40,7 @@ a {
 
 /*MAIN*/
 
+
 h1 {
   font-size: 36px;
   padding: 8px;
@@ -95,16 +96,22 @@ footer p {
   padding: 8px;
 }
 
+.container-contact-tour {
+  position: relative;
+  padding-bottom: 100px; 
+}
 .fotosDeFondo {
   width: 100%;
 }
 
 .fotosDeCostado {
-  width: 100%;
-  display: flex;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   z-index: -1;
-  bottom: 0px;
+  bottom: -150px;
 }
 
 .iconosRedes {
