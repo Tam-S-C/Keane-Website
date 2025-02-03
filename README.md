@@ -12,8 +12,7 @@
 
 * Temática: KEANE banda de british pop.
 
-<br>
----
+
 <br>
 <h2>Pre-Entrega 2</h2>
 
@@ -22,8 +21,7 @@
 - Efectuar el estilo avanzado de la web.
 - Generar la carga en un repositorio en GitHub.
 
-<br>
----
+
 <br>
 <h2>Pre-Entrega 1</h2>
 
@@ -32,6 +30,8 @@ Drive: https://drive.google.com/file/d/1oltmYpLdMyc_61PDsxFITZlCyxaD2aGG/view
 * HTML >> uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto
 * CSS>> >> con modificadores de texto, colores, y listas
 * Wireframe/prototipo >> wireframe de todas tus páginas para vista mobile y desktop.
+
+<br>
 
 ![WIREFRAMES](https://i.postimg.cc/y85n6FCX/Wireframe-Keane-Tam-SC.png)
 

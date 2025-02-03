@@ -25,26 +25,24 @@
         <img class="fotosDeFondo" src="../assets/img/fondoHeader.png" alt="Foto de fondo">
     </header>
 
-    <main>
+    <main >
         <h1>CONTACT</h1>
-        <section class="container-contact-tour">
-            <h3>Dejanos tu consulta y te estaremos respondiendo a la brevedad.</h3>
-            <img class="fotosDeCostado" src="../assets/img/fondoContact.png" alt="Foto de pajaro y Guardian">
-
+        <section class="contact-background">
+            <h3>Dejan tu consulta y te estaremos <br> respondiendo a la brevedad.</h3>
+       
             <form action="/submit" method="post">
                 <label for="nombre">Nombre</label>
-                <br>
                 <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí tu nombre" required>
-                <br>
+
+                <label for="nombre">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Escribe aquí tu apellido" required>
+
                 <label for="email">Email</label>
-                <br>
                 <input type="email" id="email" name="email" placeholder="Dejanos tu email aquí" required>
-                <br>
+
                 <label for="mensaje">Mensaje</label>
-                <br>
-                <textarea id="mensaje" name="mensaje" witdh="30%" placeholder="Escribe aquí tu mensaje"
-                    required></textarea>
-                <br>
+                <textarea id="mensaje" name="mensaje" witdh="30%" placeholder="Escribe aquí tu mensaje"required></textarea>
+
                 <button class="boton" type="submit">Enviar</button>
             </form>
         </section>
