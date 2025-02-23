@@ -280,11 +280,33 @@ textarea:focus {
 }
 
 .musicEdit {
-  width: 24%;
+  width: 70%;
   height: 160px;
   border-radius: 16px;
   margin: 8px;
 }
+
+.arrow {
+  font-size: 40px;
+  font-weight: bold;
+  color: #a70a94;
+  cursor: pointer;
+}
+
+.indicadores button {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 8px;
+}
+
+.indicadores .active {
+  background-color: #a70a94;
+}
+
+.arrow:hover, .arrow:focus, .arrow:hover, .arrow:focus, .arrow:active, .arrow:active {
+  color: #4f0647;
+}
+
 
 
 /* MEDIA QUERIES */
