@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="icon" href="./assets/icons/musica.png" type="image/x-icon" alt="favicon nota musical">
     <title>KEANE</title>
@@ -13,15 +14,39 @@
 <body>
 
     <header>
-        <a href="./index.html"><img src="./assets/icons/logoKeane.svg" alt="Logo" class="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./pages/tour.html">TOUR</a></li>
-                <li><a href="./pages/videos.html">VIDEOS</a></li>
-                <li><a href="./pages/music.html">MUSIC</a></li>
-                <li><a href="./pages/contact.html">CONTACT</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container">
+                <a href="./index.html"><img src="./assets/icons/logoKeane.svg" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler hamburguesaBoton" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+
+                        <li class="listaNavbar">
+                            <a class="botonNavBar active" aria-current="page" href="./index.html">HOME</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./pages/tour.html">TOUR</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./pages/videos.html">VIDEOS</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./pages/music.html">MUSIC</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./pages/contact.html">CONTACT</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
         </nav>
         <img class="fotosDeFondo" src="./assets/img/fondoHeader.png" alt="Foto de fondo">
     </header>
@@ -33,8 +58,10 @@
             <article class="articulos">
                 <h3>COMIENZOS</h3>
                 <p>Keane es una banda inglesa de rock alternativo, formada en 1995, procedente de Battle, East Sussex,
-                    en el sureste de Inglaterra. Sus primeros 4 álbumes en estudio, <span class="discos">Hopes and Fears</span> (2004), <span class="discos">Under the
-                    Iron Sea</span> (2006), <span class="discos">Perfect Symmetry</span> (2008), <span class="discos">Strangeland</span> (2012) fueron directos al número 1 de la
+                    en el sureste de Inglaterra. Sus primeros 4 álbumes en estudio, <span class="discos">Hopes and
+                        Fears</span> (2004), <span class="discos">Under the
+                        Iron Sea</span> (2006), <span class="discos">Perfect Symmetry</span> (2008), <span
+                        class="discos">Strangeland</span> (2012) fueron directos al número 1 de la
                     lista británica de ventas UK Albums Chart.
                     Inmediatamente después de su lanzamiento consiguiendo cerca de 10 millones de discos vendidos en
                     total.</p>
@@ -46,7 +73,9 @@
                 <p>Estuvieron separados de manera temporal desde 2014 hasta enero de 2019. Pero el 17 de enero de 2019,
                     un artículo del periódico "The Sun" reveló que la banda está planeando "regresar después de seis
                     años de distancia" y que "una fuente cercana a los rockeros ha revelado que la banda está lista para
-                    trabajar de nuevo después de "poner sus diferencias a un lado". El 30 de mayo de 2019, se reveló que el nuevo álbum se llama <span class="discos">Cause and Effect</span>. Una semana después, el 6 de junio de 2019, la banda lanzó el primer sencillo del álbum, titulado "The Way I Feel".</p>
+                    trabajar de nuevo después de "poner sus diferencias a un lado". El 30 de mayo de 2019, se reveló que
+                    el nuevo álbum se llama <span class="discos">Cause and Effect</span>. Una semana después, el 6 de
+                    junio de 2019, la banda lanzó el primer sencillo del álbum, titulado "The Way I Feel".</p>
                 <img class="fotosBio" src="./assets/img/keane1.jpg" alt="Foto de la banda">
             </article>
         </section>
@@ -65,7 +94,9 @@
         <img class="fotosDeFondo" src="./assets/img/fondoFooter.png" alt="Foto de fondo">
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 

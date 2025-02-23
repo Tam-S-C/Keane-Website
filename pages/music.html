@@ -13,15 +13,39 @@
 <body>
 
     <header>
-        <a href="../index.html"><img src="../assets/icons/logoKeane.svg" alt="Logo" class="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./tour.html">TOUR</a></li>
-                <li><a href="./videos.html">VIDEOS</a></li>
-                <li><a href="./music.html">MUSIC</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container">
+                <a href="../index.html"><img src="../assets/icons/logoKeane.svg" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler hamburguesaBoton" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="../index.html">HOME</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./tour.html">TOUR</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./videos.html">VIDEOS</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar active" aria-current="page" href="./music.html">MUSIC</a>
+                        </li>
+                        <li class="listaNavbar">
+                            <a class="botonNavBar" href="./contact.html">CONTACT</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
         </nav>
         <img class="fotosDeFondo" src="../assets/img/fondoHeader.png" alt="Foto de fondo">
     </header>
