@@ -33,7 +33,7 @@
 
 - MUSIC
 [![mob2-2.png](https://i.postimg.cc/pLghN1xq/mob2-2.png)](https://postimg.cc/ZWxKpHWd)
-[![mob2-1.png](https://i.postimg.cc/kgV6pdr2/mob2-1.png)](https://postimg.cc/0zsyzFyv)
+[![desk1-2.png](https://i.postimg.cc/Kvp3f8WX/desk1-2.png)](https://postimg.cc/Lnfs62Rv)
 [![mob3.png](https://i.postimg.cc/wvz1My1N/mob3.png)](https://postimg.cc/rdhVYpCy)
 
 <br>
