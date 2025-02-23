@@ -18,11 +18,23 @@
 
 > Objetivos
 - Se realizó una estructura avanzada de la web con grid para el layout y componentes varios.
-- Se utilizó Bootstrap para la estructura y estilo de la NavBar y de los Carrouseles (Videos y Spotify) modificando varias de sus clases para darle estilos propios.
-- Se crearon los diferentes breakpoints para ajustar el diseño en diferentes dispositivos a través de Media Queries (Diseño Responsive).
+- Uso de Flex para el manejo del posicionamiento dentro de contenedores mas pequeños.
+- Se utilizó Bootstrap para la estructura y estilo de la NavBar y de los Carrouseles (Music/Spotify) modificando varias de sus clases para darle estilos propios.
+- Se crearon los diferentes breakpoints para ajustar el diseño en diferentes dispositivos a través de Media Queries (Diseño Responsive), no se han utilizado mucho ya que muchas medidas están con % porcentaje para que ya se ajusten a las diferentes resoluciones de pantalla.
 - Se generó la carga en un repositorio en GitHub.
 - Se ulitizó pseudoclases como hover, active, visited y focus para darle estilos a los botones e inputs.
 
+
+> Vistas de las páginas Home y Music en Mobile y Desktop.
+
+- HOME
+[![desk1-1.png](https://i.postimg.cc/zfKLqSG5/desk1-1.png)](https://postimg.cc/rdyyJ44Y)
+[![mob2-1.png](https://i.postimg.cc/kgV6pdr2/mob2-1.png)](https://postimg.cc/0zsyzFyv)
+
+- MUSIC
+[![mob2-2.png](https://i.postimg.cc/pLghN1xq/mob2-2.png)](https://postimg.cc/ZWxKpHWd)
+[![mob2-1.png](https://i.postimg.cc/kgV6pdr2/mob2-1.png)](https://postimg.cc/0zsyzFyv)
+[![mob3.png](https://i.postimg.cc/wvz1My1N/mob3.png)](https://postimg.cc/rdhVYpCy)
 
 <br>
 <h2>Pre-Entrega 1</h2>
