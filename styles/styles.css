@@ -51,28 +51,37 @@ main {
 }
 
 h1 {
+  font-family: "Rubik", "Roboto", serif;
+  font-weight: bold;
   font-size: 36px;
   padding: 8px;
 }
 
 h2 {
+  font-family: "Rubik", "Roboto", serif;
+  font-size: 28px;
   color: #086e83;
   padding: 8px;
 }
 
 h3 {
+  font-family: "Rubik", "Roboto", serif;
+  font-size: 22px;
+  font-weight: bold;
   color: #a70a94;
   padding: 8px;
 }
 
 p {
-  font-size: 16px;
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 18px;
   padding: 8px;
 }
 
 .discos {
   color: #a70a94;
   font-style: italic;
+  font-weight: bold;
 }
 
 .articulos {
@@ -132,6 +141,18 @@ textarea {
   margin: 8px;
 }
 
+input:focus {
+  outline: none;
+  border: 2px solid #a70a94;
+  box-shadow: 2px 2px 2px #a70a94;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid #a70a94;
+  box-shadow: 2px 2px 2px #a70a94;
+}
+
 .boton {
   background-color: #086e83;
   color: #f0eeed;
@@ -140,6 +161,14 @@ textarea {
   border-radius: 16px;
   padding: 8px;
   margin: 16px 0;
+}
+
+.boton:hover {
+  background-color: #a70a94;
+}
+
+.boton:active {
+  background-color: #5e0754;
 }
 
 /*IMAGENES e ICONOS*/

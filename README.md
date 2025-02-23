@@ -21,7 +21,7 @@
 - Se utilizó Bootstrap para la estructura y estilo de la NavBar y de los Carrouseles (Videos y Spotify) modificando varias de sus clases para darle estilos propios.
 - Se crearon los diferentes breakpoints para ajustar el diseño en diferentes dispositivos a través de Media Queries (Diseño Responsive).
 - Se generó la carga en un repositorio en GitHub.
-- Se ulitizó pseudoclases como Hover.
+- Se ulitizó pseudoclases como hover, active, visited y focus para darle estilos a los botones e inputs.
 
 
 <br>
@@ -29,13 +29,16 @@
 
 Drive: https://drive.google.com/file/d/1oltmYpLdMyc_61PDsxFITZlCyxaD2aGG/view
 
-* HTML >> uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto
-* CSS>> >> con modificadores de texto, colores, y listas
-* Wireframe/prototipo >> wireframe de todas tus páginas para vista mobile y desktop.
+> Objetivos
+- HTML >> uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto.
+- CSS  >> con modificadores de texto, colores y listas.
+- Wireframe/prototipo >> wireframe de todas tus páginas para vista mobile y desktop.
 
 <br>
 
-![WIREFRAMES](https://i.postimg.cc/y85n6FCX/Wireframe-Keane-Tam-SC.png)
+> WIREFRAMES
+
+[![Wireframe-Keane-Tam-SC.png](https://i.postimg.cc/y85n6FCX/Wireframe-Keane-Tam-SC.png)](https://postimg.cc/TKVnC5wp)
 
 
 
