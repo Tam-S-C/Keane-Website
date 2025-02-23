@@ -17,9 +17,11 @@
 <h2>Pre-Entrega 2</h2>
 
 > Objetivos
-- Realizar una estructura avanzada de la web.
-- Efectuar el estilo avanzado de la web.
-- Generar la carga en un repositorio en GitHub.
+- Se realizó una estructura avanzada de la web con grid para el layout y componentes varios.
+- Se utilizó Bootstrap para la estructura y estilo de la NavBar y de los Carrouseles (Videos y Spotify) modificando varias de sus clases para darle estilos propios.
+- Se crearon los diferentes breakpoints para ajustar el diseño en diferentes dispositivos a través de Media Queries (Diseño Responsive).
+- Se generó la carga en un repositorio en GitHub.
+- Se ulitizó pseudoclases como Hover.
 
 
 <br>
