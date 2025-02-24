@@ -324,6 +324,12 @@ textarea:focus {
   }
 }
 
+@media (max-width: 768px) {
+  .listContainer {
+    margin-right: 0px;
+  }
+}
+
 @media (max-width: 1024px) {  
 
   .fotosBio {
