@@ -24,7 +24,7 @@ header {
 
 .logo {
   width: 160px;
-  margin-right: 24px;
+  margin: 0 8px;
 }
 
 nav ul li {
@@ -32,6 +32,13 @@ nav ul li {
   padding: 4px 16px;
   font-size: 22px;
   margin-top: 6px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
 }
 
 .listaNavbar {
@@ -308,7 +315,6 @@ textarea:focus {
 }
 
 
-
 /* MEDIA QUERIES */
 
 @media (max-width: 450px) {
@@ -335,4 +341,5 @@ textarea:focus {
     font-size: 24px;
     padding: 0 16px;
   }
+
 }

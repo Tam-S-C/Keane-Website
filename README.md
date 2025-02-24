@@ -24,19 +24,40 @@
 - Se generó la carga en un repositorio en GitHub.
 - Se ulitizó pseudoclases como hover, active, visited y focus para darle estilos a los botones e inputs.
 
+<br>
 
 > Vistas de las páginas Home y Music en Mobile y Desktop.
 
 - HOME
+
+<br>
+
 [![desk1-1.png](https://i.postimg.cc/zfKLqSG5/desk1-1.png)](https://postimg.cc/rdyyJ44Y)
+
+<br>
+
 [![mob2-1.png](https://i.postimg.cc/kgV6pdr2/mob2-1.png)](https://postimg.cc/0zsyzFyv)
 
 - MUSIC
+
+<br>
+
 [![mob2-2.png](https://i.postimg.cc/pLghN1xq/mob2-2.png)](https://postimg.cc/ZWxKpHWd)
+
+<br>
+
 [![desk1-2.png](https://i.postimg.cc/Kvp3f8WX/desk1-2.png)](https://postimg.cc/Lnfs62Rv)
+
+<br>
+
+- MENU HAMBURGUESA DESPLEGADO (MOBILE)
+
+<br>
+
 [![mob3.png](https://i.postimg.cc/wvz1My1N/mob3.png)](https://postimg.cc/rdhVYpCy)
 
 <br>
+
 <h2>Pre-Entrega 1</h2>
 
 Drive: https://drive.google.com/file/d/1oltmYpLdMyc_61PDsxFITZlCyxaD2aGG/view
