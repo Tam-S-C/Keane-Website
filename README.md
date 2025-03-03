@@ -20,7 +20,6 @@
 ![Static Badge](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white)
 
 
-<br>
 <h2>Pre-Entrega 2</h2>
 
 > Objetivos
@@ -31,13 +30,9 @@
 - Se generó la carga en un repositorio en GitHub.
 - Se ulitizó pseudoclases como hover, active, visited y focus para darle estilos a los botones e inputs.
 
-<br>
-
-> Vistas de las páginas Home y Music en Mobile y Desktop.
+> <h3>Vistas de las páginas Home y Music en Mobile y Desktop.</h3>
 
 - HOME
-
-<br>
 
 <a href="https://postimg.cc/rdyyJ44Y">
    <img src="https://i.postimg.cc/zfKLqSG5/desk1-1.png" width="800" />
@@ -49,9 +44,10 @@
    <img src="https://i.postimg.cc/kgV6pdr2/mob2-1.png" width="350" />
 </a>
 
-- MUSIC
-
 <br>
+<br>
+
+- MUSIC
 
 <a href="https://postimg.cc/ZWxKpHWd">
    <img src="https://i.postimg.cc/pLghN1xq/mob2-2.png" width="800" />
@@ -64,16 +60,13 @@
 </a>
 
 <br>
+<br>
 
 - MENU HAMBURGUESA DESPLEGADO (MOBILE)
-
-<br>
 
 <a href="https://postimg.cc/rdhVYpCy">
    <img src="https://i.postimg.cc/wvz1My1N/mob3.png" width="350" />
 </a>
-
-<br>
 
 <h2>Pre-Entrega 1</h2>
 
@@ -83,8 +76,6 @@ Drive: https://drive.google.com/file/d/1oltmYpLdMyc_61PDsxFITZlCyxaD2aGG/view
 - HTML >> uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto.
 - CSS  >> con modificadores de texto, colores y listas.
 - Wireframe/prototipo >> wireframe de todas tus páginas para vista mobile y desktop.
-
-<br>
 
 > WIREFRAMES
 
