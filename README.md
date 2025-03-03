@@ -39,21 +39,29 @@
 
 <br>
 
-[![desk1-1.png](https://i.postimg.cc/zfKLqSG5/desk1-1.png)](https://postimg.cc/rdyyJ44Y)
+<a href="https://postimg.cc/rdyyJ44Y">
+   <img src="https://i.postimg.cc/zfKLqSG5/desk1-1.png" width="800" />
+</a>
 
 <br>
 
-[![mob2-1.png](https://i.postimg.cc/kgV6pdr2/mob2-1.png)](https://postimg.cc/0zsyzFyv)
+<a href="https://postimg.cc/0zsyzFyv">
+   <img src="https://i.postimg.cc/kgV6pdr2/mob2-1.png" width="350" />
+</a>
 
 - MUSIC
 
 <br>
 
-[![mob2-2.png](https://i.postimg.cc/pLghN1xq/mob2-2.png)](https://postimg.cc/ZWxKpHWd)
+<a href="https://postimg.cc/ZWxKpHWd">
+   <img src="https://i.postimg.cc/pLghN1xq/mob2-2.png" width="800" />
+</a>
 
 <br>
 
-[![desk1-2.png](https://i.postimg.cc/Kvp3f8WX/desk1-2.png)](https://postimg.cc/Lnfs62Rv)
+<a href="https://postimg.cc/Lnfs62Rv">
+   <img src="https://i.postimg.cc/Kvp3f8WX/desk1-2.png" width="350" />
+</a>
 
 <br>
 
@@ -61,7 +69,9 @@
 
 <br>
 
-[![mob3.png](https://i.postimg.cc/wvz1My1N/mob3.png)](https://postimg.cc/rdhVYpCy)
+<a href="https://postimg.cc/rdhVYpCy">
+   <img src="https://i.postimg.cc/wvz1My1N/mob3.png" width="350" />
+</a>
 
 <br>
 
