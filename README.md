@@ -78,7 +78,7 @@ Drive: https://drive.google.com/file/d/1oltmYpLdMyc_61PDsxFITZlCyxaD2aGG/view
 
 > WIREFRAMES
 
-<a href='https://postimg.cc/TKVnC5wp' target='_blank'><img src='https://i.postimg.cc/TKVnC5wp/Wireframe-Keane-Tam-SC.png' border='0'  alt='Wireframe-Keane-Tam-SC'/></a>
+<a href='https://i.postimg.cc/HTWN22SK/Wireframe-Keane-Tam-SC.png' target='_blank'><img src='https://i.postimg.cc/TKVnC5wp/Wireframe-Keane-Tam-SC.png' border='0'  alt='Wireframe-Keane-Tam-SC'/></a>
 
 
 
