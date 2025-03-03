@@ -12,6 +12,15 @@
 
 * Temática: KEANE banda de british pop.
 
+* Tecnologías:
+
+![image](https://github.com/user-attachments/assets/09bb3851-8f1c-44b2-a0f1-330181e7aad1)
+![image](https://github.com/user-attachments/assets/e27f4435-1fa4-43b0-93a4-9f2da115d562)
+![image](https://github.com/user-attachments/assets/1767df44-aa42-441c-ba84-d0ac373df9ed)
+![Static Badge](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white)
+![image](https://github.com/user-attachments/assets/86312436-d34d-45ff-bbd7-f801a74c985b)
+
+
 
 <br>
 <h2>Pre-Entrega 2</h2>
