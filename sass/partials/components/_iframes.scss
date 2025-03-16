@@ -1,32 +1,34 @@
+/* IFRAMES: Music & Video */
+
 .musicEdit {
-    width: 70%;
-    height: 160px;
-    border-radius: 16px;
-    margin: 8px;
-  }
-  
-  .videoEdit {
-    @extend .musicEdit;
-    height: 240px;
-  }
-  
-  .arrow {
-    @include fontStyle(40px, bold);
+  width: 70%;
+  height: 160px;
+  border-radius: 16px;
+  margin: 8px;
+}
+
+.videoEdit {
+  @extend .musicEdit;
+  height: 240px;
+}
+
+.arrow {
+  @include fontStyle(40px, bold);
+  color: $color-botones-hover;
+  cursor: pointer;
+  &:hover,
+  &:focus,
+  &:active {
     color: $color-botones-hover;
-    cursor: pointer;
-    &:hover,
-    &:focus,
-    &:active {
-      color: $color-botones-hover;
-    }
   }
-  
-  .indicadores button {
-    width: 12px;
-    height: 12px;
-    margin-bottom: 8px;
-  }
-  
-  .indicadores .active {
-    background-color: $color-botones-active;
-  }
+}
+
+.indicadores button {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 8px;
+}
+
+.indicadores .active {
+  background-color: $color-botones-active;
+}

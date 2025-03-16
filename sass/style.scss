@@ -1,16 +1,19 @@
+/*Base*/ 
 @import 'partials/base/reset';
 @import 'partials/base/tipografia';
 
+/*Utilities*/
 @import 'partials/utilities/mixins';
 @import 'partials/utilities/variables';
 @import 'partials/utilities/maps';
 
+/*Components*/
 @import 'partials/components/body';
 @import 'partials/components/navBar';
 @import 'partials/components/main';
-@import 'partials/components/footer';
 @import 'partials/components/tour';
 @import 'partials/components/contact';
 @import 'partials/components/iframes';
+@import 'partials/components/footer';
 @import 'partials/components/img&icons';
 @import 'partials/components/mediaQ';

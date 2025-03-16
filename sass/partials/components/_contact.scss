@@ -29,14 +29,14 @@ form {
   }
   
   .boton {
-    background-color: $color-botones-fondo;
+    background: $color-grad-botones-fondo;
     color: $color-textos-botones;
     border-radius: 16px;
     @include fontStyle(16px, bold);
     padding: 8px;
     margin: 16px 0px;
     &:hover {
-      background-color: $color-botones-hover;
+      background: $color-grad-botones-hover;
       box-shadow: 2px 2px 2px $color-sombras;
     }
     &:active {

@@ -8,12 +8,15 @@ $color-destacado: #5e0754;
 $color-fondo: #f0eeed;
 $color-contenido: #c1d6e6;
 $color-texto: #003d51;
+$color-gradiente-boton: linear-gradient(to bottom, $color-principal, $color-secundario);
+$color-gradiente-boton-hover: linear-gradient(to bottom, $color-terciario, $color-destacado);
 
 // Colores de botones
 $color-textos-botones: $color-fondo;
 $color-botones-navBar: $color-secundario;
-$color-botones-fondo: $color-principal;
-$color-botones-hover: $color-destacado;
+$color-botones-hover: $color-terciario;
+$color-grad-botones-fondo: $color-gradiente-boton;
+$color-grad-botones-hover: $color-gradiente-boton-hover;
 $color-botones-active: $color-terciario;
 $color-sombras: $color-destacado;
 $color-border: $color-terciario;

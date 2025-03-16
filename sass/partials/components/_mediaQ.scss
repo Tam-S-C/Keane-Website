@@ -2,7 +2,7 @@
 
 @media (max-width: 450px) {
     .logo {
-      width: 120px;
+      width: 160px;
       margin-left: auto;
     }
   }
@@ -10,21 +10,16 @@
   @media (max-width: 768px) {
     .logo {
       width: 120px;
-      margin-left: auto;
     }
   
     .listContainer {
       margin-right: 0px;
-    }
-    nav ul li {
-      padding: 4px 0;
     }
   }
   
   @media (max-width: 1024px) {
     .logo {
       width: 160px;
-      margin-left: auto;
     }
   
     .fotosBio {
@@ -36,8 +31,12 @@
     }
   
     nav ul li {
-      padding: 4px 0;
-      font-size: 18px;
+      padding: 0;
+    }
+ 
+    .botonNavBar{
+      @include fontStyle(18px, bold);
+      padding: 0 6px;
     }
   
     .articulos {

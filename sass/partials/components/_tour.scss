@@ -11,3 +11,9 @@
   .ulTour {
     margin-right: 24px;
   }
+
+  .botonListaTour {
+    color: $color-botones-navBar;
+    text-decoration: none;
+    @include fontStyle(18px, bold);
+  }

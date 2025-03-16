@@ -1,3 +1,4 @@
+/*Base*/
 /* RESET */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
@@ -6,8 +7,10 @@
 }
 
 /* Tipografia */
+/*Utilities*/
 /* Mixins */
 /* Maps */
+/*Components*/
 body {
   background-color: #f0eeed;
   color: #003d51;
@@ -32,7 +35,7 @@ nav ul li {
   display: inline-block;
   padding: 4px 16px;
   margin-top: 6px;
-  font-size: 22px;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -48,25 +51,20 @@ nav ul li {
   list-style-type: none;
 }
 
-.botonNavBar,
-.botonListaTour {
+.botonNavBar {
   color: #095c78;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
-}
-
-.botonNavBar {
-  padding: 8px 16px;
+  padding: 4px 12px;
   margin: 0 8px;
 }
 .botonNavBar:hover {
-  color: #5e0754;
+  color: #a70a94;
   text-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
 }
 
-.active,
-.botonListaTour:active {
+.active {
   color: #a70a94;
 }
 
@@ -75,7 +73,7 @@ nav ul li {
 }
 
 .hamburguesaBoton[aria-expanded=true] {
-  border: 2px solid #5e0754;
+  border: 2px solid #a70a94;
   background-color: #a70a94;
   box-shadow: 0 0 10px #5e0754;
 }
@@ -181,28 +179,24 @@ p {
   margin-top: 16px;
 }
 
-/*FOOTER*/
-footer {
-  margin-top: 16px;
-  text-align: center;
-}
-footer p {
-  font-family: "Roboto", "serif";
-  font-size: 16px;
-  font-weight: 200;
-}
-
 /*TOUR*/
 .listaTour {
   list-style-type: none;
 }
 .listaTour .botonListaTour:hover {
-  color: #5e0754;
+  color: #a70a94;
   text-shadow: 0 0 8px #5e0754;
 }
 
 .ulTour {
   margin-right: 24px;
+}
+
+.botonListaTour {
+  color: #095c78;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /*CONTACTO*/
@@ -240,7 +234,7 @@ textarea:focus {
 }
 
 .boton {
-  background-color: #0b829a;
+  background: linear-gradient(to bottom, #0b829a, #095c78);
   color: #f0eeed;
   border-radius: 16px;
   font-size: 16px;
@@ -249,7 +243,7 @@ textarea:focus {
   margin: 16px 0px;
 }
 .boton:hover {
-  background-color: #5e0754;
+  background: linear-gradient(to bottom, #a70a94, #5e0754);
   box-shadow: 2px 2px 2px #5e0754;
 }
 .boton:active {
@@ -261,6 +255,7 @@ textarea:focus {
   min-height: 40px;
 }
 
+/* IFRAMES: Music & Video */
 .musicEdit, .videoEdit {
   width: 70%;
   height: 160px;
@@ -275,11 +270,11 @@ textarea:focus {
 .arrow {
   font-size: 40px;
   font-weight: bold;
-  color: #5e0754;
+  color: #a70a94;
   cursor: pointer;
 }
 .arrow:hover, .arrow:focus, .arrow:active {
-  color: #5e0754;
+  color: #a70a94;
 }
 
 .indicadores button {
@@ -290,6 +285,17 @@ textarea:focus {
 
 .indicadores .active {
   background-color: #a70a94;
+}
+
+/*FOOTER*/
+footer {
+  margin-top: 16px;
+  text-align: center;
+}
+footer p {
+  font-family: "Roboto", "serif";
+  font-size: 16px;
+  font-weight: 200;
 }
 
 /*IMAGENES e ICONOS*/
@@ -326,26 +332,21 @@ textarea:focus {
 /* MEDIA QUERIES */
 @media (max-width: 450px) {
   .logo {
-    width: 120px;
+    width: 160px;
     margin-left: auto;
   }
 }
 @media (max-width: 768px) {
   .logo {
     width: 120px;
-    margin-left: auto;
   }
   .listContainer {
     margin-right: 0px;
-  }
-  nav ul li {
-    padding: 4px 0;
   }
 }
 @media (max-width: 1024px) {
   .logo {
     width: 160px;
-    margin-left: auto;
   }
   .fotosBio {
     width: 240px;
@@ -354,8 +355,12 @@ textarea:focus {
     margin-right: 0px;
   }
   nav ul li {
-    padding: 4px 0;
+    padding: 0;
+  }
+  .botonNavBar {
     font-size: 18px;
+    font-weight: bold;
+    padding: 0 6px;
   }
   .articulos {
     display: flex;

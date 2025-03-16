@@ -15,7 +15,7 @@ header {
         display: inline-block;
         padding: 4px 16px;
         margin-top: 6px;
-        @include fontStyle(22px, bold);
+        @include fontStyle(36px, bold);
       }
     }
   }
@@ -29,15 +29,11 @@ header {
     list-style-type: none;
   }
   
-  .botonNavBar,
-  .botonListaTour {
+  .botonNavBar{
     color: $color-botones-navBar;
     text-decoration: none;
-    @include fontStyle(18px, bold);
-  }
-  
-  .botonNavBar {
-    padding: 8px 16px;
+    @include fontStyle(24px, bold);
+    padding: 4px 12px;
     margin: 0 8px;
     &:hover {
       color: $color-botones-hover;
@@ -45,8 +41,7 @@ header {
     }
   }
   
-  .active,
-  .botonListaTour:active {
+  .active{
     color: $color-botones-active;
   }
   
