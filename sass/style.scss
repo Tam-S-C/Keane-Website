@@ -30,10 +30,20 @@ $color-texto-active: $color-terciario;
 // font
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
 }
+
+// mixins
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+
 
 body {
   background-color: $color-fondo;
@@ -52,7 +62,7 @@ header {
 }
 
 .logo {
-  width: 160px;
+  width: 200px;
   margin: 0 8px;
 }
 
@@ -68,9 +78,7 @@ nav {
 }
 
 .listContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(row);
   margin-right: 150px;
 }
 
@@ -106,16 +114,13 @@ nav {
 .hamburguesaBoton[aria-expanded="true"] {
   border: 2px solid $color-botones-hover;
   background-color: $color-botones-active;
-  box-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
+  box-shadow: 0 0 10px $color-sombras;
 }
 
 /* MAIN */
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include flex(column);
   margin-top: auto;
   text-align: center;
 }
@@ -127,8 +132,8 @@ h1, h2, h3 {
 
 h1 {
   color: $color-h1;
-  font-weight: bold;
   font-size: 36px;
+  font-weight: bold;
   margin-top: 24px;
 }
 
@@ -159,20 +164,15 @@ p {
 }
 
 .articulos {
+  @include flex(row);
   color: $color-textos-p;
   width: 62%;
   margin: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 16px;
 }
 
 .tour {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex(column);
   margin-bottom: 16px;
 }
 
@@ -242,9 +242,7 @@ footer {
 /*CONTACTO*/
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flex(column);
   width: 100%;
   max-width: 600px;
   label {
@@ -256,9 +254,9 @@ form {
 
 input,
 textarea {
+  background-color: $color-contenido;
   border-radius: 16px;
   border: none;
-  background-color: $color-contenido;
   width: 60%;
   max-width: 400px;
   text-align: center;
@@ -274,9 +272,9 @@ textarea {
 .boton {
   background-color: $color-botones-fondo;
   color: $color-textos-botones;
+  border-radius: 16px;
   font-weight: bold;
   font-size: 16px;
-  border-radius: 16px;
   padding: 8px;
   margin: 16px 0px;
   &:hover {
@@ -300,16 +298,8 @@ textarea {
   height: auto;
 }
 
-.tour-background {
+.tour-background{
   background-image: url("../assets/img/fondoTour.png");
-}
-
-.contact-background {
-  background-image: url("../assets/img/fondoContact.png");
-}
-
-.tour-background,
-.contact-background {
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
@@ -323,18 +313,28 @@ textarea {
   margin: 0 16px;
 }
 
+.contact-background {
+  background-image: url("../assets/img/fondoContact.png");
+  @extend .tour-background;
+}
+
+
 .iconosRedes {
   height: 32px;
   padding: 0 16px;
   margin: 8px;
 }
 
-.musicEdit,
-.videoEdit {
+.musicEdit {
   width: 70%;
   height: 160px;
   border-radius: 16px;
   margin: 8px;
+}
+
+.videoEdit {
+  width: 80%;
+  @extend .musicEdit;
 }
 
 .arrow {
@@ -369,20 +369,40 @@ textarea {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    margin-left: auto;
+  }
+
   .listContainer {
     margin-right: 0px;
+  }
+  nav ul li {
+    padding: 4px 0;
   }
 }
 
 @media (max-width: 1024px) {
+  .logo {
+    width: 160px;
+    margin-left: auto;
+  }
+
   .fotosBio {
     width: 240px;
   }
 
+  .listContainer {
+    margin-right: 0px;
+  }
+
+  nav ul li {
+    padding: 4px 0;
+    font-size: 18px;
+  }
+
   .articulos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column);
     gap: 4px;
   }
 
