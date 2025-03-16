@@ -22,7 +22,7 @@
 
 > Objetivos
 - Hacer un diseño 100% responsive para el sitio web.
-- Utilizar variables, nesting, mixins y funciones @extend/@include en Sass para reducir la duplicación de código y aumentar la modularidad con partials.
+- Utilizar variables, nesting, mixins y funciones @extend/@include, maps en Sass para reducir la duplicación de código y aumentar la modularidad con partials.
 - Agregar animaciones con librerías como animate.css. o de scroll como AOS, o de forma manual usando keyframes, transitions y transform.
 
 

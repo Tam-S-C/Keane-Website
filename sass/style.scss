@@ -44,12 +44,16 @@ $color-texto-active: $color-terciario;
   justify-content: center;
 }
 
+@mixin fontStyle($fontSize, $fontWeight) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
 
 body {
   background-color: $color-fondo;
   color: $color-textos-p;
-  text-align: center;
   font-family: "Rubik", "Roboto", serif;
+  text-align: center;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -71,8 +75,8 @@ nav {
     li {
       display: inline-block;
       padding: 4px 16px;
-      font-size: 22px;
       margin-top: 6px;
+      @include fontStyle(22px, bold);
     }
   }
 }
@@ -89,8 +93,8 @@ nav {
 .botonNavBar,
 .botonListaTour {
   color: $color-botones-navBar;
-  font-weight: bold;
   text-decoration: none;
+  @include fontStyle(18px, bold);
 }
 
 .botonNavBar {
@@ -132,35 +136,31 @@ h1, h2, h3 {
 
 h1 {
   color: $color-h1;
-  font-size: 36px;
-  font-weight: bold;
   margin-top: 24px;
+  @include fontStyle(36px, bold);
 }
 
 h2 {
   color: $color-h2;
-  font-size: 26px;
-  font-weight: 200;
+  @include fontStyle(26px, 200);
 }
 
 h3 {
   color: $color-h3;
-  font-size: 22px;
-  font-weight: bold;
+  @include fontStyle(22px, bold);
 }
 
 p {
   color: $color-textos-p;
   font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  font-weight: 200;
+  @include fontStyle(18px, 200);
   padding: 4px;
 }
 
 .discos {
   color: $color-span;
   font-style: italic;
-  font-weight: bold;
+  @include fontStyle(18px, bold);
 }
 
 .articulos {
@@ -247,7 +247,7 @@ form {
   max-width: 600px;
   label {
     color: $color-h1;
-    font-weight: bold;
+    @include fontStyle(16px, bold);
     margin-top: 16px;
   }
 }
@@ -273,8 +273,7 @@ textarea {
   background-color: $color-botones-fondo;
   color: $color-textos-botones;
   border-radius: 16px;
-  font-weight: bold;
-  font-size: 16px;
+  @include fontStyle(16px, bold);
   padding: 8px;
   margin: 16px 0px;
   &:hover {
@@ -338,8 +337,7 @@ textarea {
 }
 
 .arrow {
-  font-size: 40px;
-  font-weight: bold;
+  @include fontStyle(40px, bold);
   color: $color-botones-hover;
   cursor: pointer;
   &:hover,

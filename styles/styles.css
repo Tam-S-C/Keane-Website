@@ -7,8 +7,8 @@
 body {
   background-color: #f0eeed;
   color: #003d51;
-  text-align: center;
   font-family: "Rubik", "Roboto", serif;
+  text-align: center;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -27,8 +27,9 @@ header {
 nav ul li {
   display: inline-block;
   padding: 4px 16px;
-  font-size: 22px;
   margin-top: 6px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .listContainer {
@@ -46,8 +47,9 @@ nav ul li {
 .botonNavBar,
 .botonListaTour {
   color: #095c78;
-  font-weight: bold;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .botonNavBar {
@@ -91,9 +93,9 @@ h1, h2, h3 {
 
 h1 {
   color: #0b829a;
+  margin-top: 24px;
   font-size: 36px;
   font-weight: bold;
-  margin-top: 24px;
 }
 
 h2 {
@@ -119,6 +121,7 @@ p {
 .discos {
   color: #a70a94;
   font-style: italic;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -207,6 +210,7 @@ form {
 }
 form label {
   color: #0b829a;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 16px;
 }
@@ -233,8 +237,8 @@ textarea:focus {
   background-color: #0b829a;
   color: #f0eeed;
   border-radius: 16px;
-  font-weight: bold;
   font-size: 16px;
+  font-weight: bold;
   padding: 8px;
   margin: 16px 0px;
 }
