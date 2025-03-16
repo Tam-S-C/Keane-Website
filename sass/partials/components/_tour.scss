@@ -5,6 +5,7 @@
     .botonListaTour:hover {
       color: $color-botones-hover;
       text-shadow: 0 0 8px $color-sombras;
+      transition: ease 0.5s;
     }
   }
   

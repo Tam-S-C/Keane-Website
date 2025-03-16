@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="icon" href="./assets/icons/musica.png" type="image/x-icon" alt="favicon nota musical">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/icons/musica.png" type="image/x-icon" alt="favicon nota musical">
     <title>KEANE</title>
 </head>
 
@@ -16,7 +23,8 @@
     <header>
         <nav class="navbar navbar-expand-md ">
             <div class="container">
-                <a href="./index.html"><img src="./assets/icons/logoKeane.svg" alt="Logo" class="logo"></a>
+                <a href="./index.html"><img src="./assets/icons/logoKeane.svg" alt="Logo"
+                        class="logo animate__animated animate__heartBeat"></a>
                 <button class="navbar-toggler hamburguesaBoton" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -57,21 +65,24 @@
         <section class="bioContainer">
             <h2 class="bioTitulo">BREVE BIOGRAFÍA E HISTORIA DE LA BANDA</h2>
 
-            <article class="articulos" id="articulo1">
+            <article class="articulos" id="articulo1" data-aos="fade-right" data-aos-duration="2000">
                 <div class="art">
                     <h3>COMIENZOS</h3>
                     <p>Keane es una banda inglesa de rock alternativo, formada en 1995, procedente de Battle, East
                         Sussex,
                         en el sureste de Inglaterra. Sus primeros 4 álbumes en estudio, <span class="discos">Hopes and
-                        Fears</span> (2004), <span class="discos">Under the Iron Sea</span> (2006), <span class="discos">Perfect Symmetry</span> (2008), <span class="discos">Strangeland</span> (2012) fueron directos al número 1 de la
-                        lista británica de ventas UK Albums Chart. Inmediatamente después de su lanzamiento consiguiendo cerca de 10 millones de discos vendidos en total.</p>
+                            Fears</span> (2004), <span class="discos">Under the Iron Sea</span> (2006), <span
+                            class="discos">Perfect Symmetry</span> (2008), <span class="discos">Strangeland</span>
+                        (2012) fueron directos al número 1 de la
+                        lista británica de ventas UK Albums Chart. Inmediatamente después de su lanzamiento consiguiendo
+                        cerca de 10 millones de discos vendidos en total.</p>
                 </div>
                 <figure class="pictureBio">
                     <img class="fotosBio" src="./assets/img/keane.jpg" alt="Foto de la banda" id="foto1">
                 </figure>
             </article>
 
-            <article class="articulos" id="articulo2">
+            <article class="articulos" id="articulo2" data-aos="fade-left" data-aos-duration="2000">
                 <figure class="pictureBio">
                     <img class="fotosBio" src="./assets/img/keaneBanda.png" alt="Foto de la banda" id="foto2">
                 </figure>
@@ -85,7 +96,7 @@
                 </div>
             </article>
 
-            <article class="articulos" id="articulo3">
+            <article class="articulos" id="articulo3" data-aos="fade-right" data-aos-duration="2000">
                 <div class="art">
                     <h3>Se une Tom, se va Scott</h3>
                     <p>Chaplin se unió al grupo en 1997 y se encargó de la voz y la guitarra acústica. La unión de Tom a
@@ -102,7 +113,7 @@
                 </figure>
             </article>
 
-            <article class="articulos" id="articulo4">
+            <article class="articulos" id="articulo4" data-aos="fade-left" data-aos-duration="2000">
                 <figure class="pictureBio">
                     <img class="fotosBio" src="./assets/img/keane1.jpg" alt="Foto de la banda" id="foto2">
                 </figure>
@@ -136,9 +147,17 @@
         <img class="fotosDeFondo" src="./assets/img/fondoFooter.png" alt="Foto de fondo">
     </footer>
 
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
 

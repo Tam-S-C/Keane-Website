@@ -29,8 +29,12 @@
 - - Maps > fontsFamily.
 
 - Agregar animaciones con librerías como animate.css. o de scroll como AOS, o de forma manual usando keyframes, transitions y transform.
-- - Degradé lineal en botón 'Enviar' en Contact.
-- - Transform y transition: en fotos del home.
+- - Degradé lineal > botón 'Enviar' en Contact.
+- - Transform y transition > fotos del home.
+- - Transitions > botones de la navBar.
+- - Librería animate.css > logo.
+- - Librería AOS > scroll en los articles del home, form, tour y canciones.
+- - Rotate > imagen de vinilo en page Music.
 
 
 <br>

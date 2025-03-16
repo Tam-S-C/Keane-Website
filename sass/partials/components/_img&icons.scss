@@ -37,3 +37,19 @@
     transform: scale(1.1);
   }
 }
+
+.vinilo {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 8px;
+  animation: girar 3s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
