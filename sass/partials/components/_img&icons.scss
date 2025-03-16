@@ -38,7 +38,7 @@
   }
 }
 
-.vinilo {
+.vinilo{
   width: 36px;
   height: 36px;
   margin-bottom: 8px;
@@ -51,5 +51,22 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.sobre {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  animation: vaiven 1s ease-in-out infinite alternate;
+}
+
+@keyframes vaiven {
+  from {
+    transform: rotate(25deg);
+  }
+  to {
+    transform: rotate(-25deg);
   }
 }

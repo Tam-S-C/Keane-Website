@@ -34,7 +34,7 @@
 - - Transitions > botones de la navBar.
 - - Librería animate.css > logo.
 - - Librería AOS > scroll en los articles del home, form, tour y canciones.
-- - Rotate > imagen de vinilo en page Music.
+- - Rotate > imagen de vinilo en page Music, sobre en page Contact.
 
 
 <br>
