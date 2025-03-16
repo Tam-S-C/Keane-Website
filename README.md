@@ -1,6 +1,7 @@
 <h1><img src="https://img.shields.io/badge/CURSO-DESARROLLO WEB-32286E?logo=null&logoColor=black&style=flat" width="240" height="32"/></h1>
 
 > DEPLOY: https://tam-s-c.github.io/Keane-Website/
+* Temática: KEANE banda de british pop.
 
 > CODERHOUSE > Comisión: 69175
 
@@ -9,14 +10,11 @@
 * Alumna: Tamara S. Canzobre
 
 * Tecnologías:
-> Web realizada únicamente con HTML y CSS/SCSS.
 
 ![image](https://github.com/user-attachments/assets/09bb3851-8f1c-44b2-a0f1-330181e7aad1)
 ![image](https://github.com/user-attachments/assets/e27f4435-1fa4-43b0-93a4-9f2da115d562)
 ![image](https://github.com/user-attachments/assets/1767df44-aa42-441c-ba84-d0ac373df9ed)
 ![Static Badge](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white)
-
-* Temática: KEANE banda de british pop.
 
 <h2>Pre-Entrega 3</h2>
 
