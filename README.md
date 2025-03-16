@@ -22,8 +22,14 @@
 
 > Objetivos
 - Hacer un diseño 100% responsive para el sitio web.
+
 - Utilizar variables, nesting, mixins y funciones @extend/@include, maps en Sass para reducir la duplicación de código y aumentar la modularidad con partials.
+- - Variables > colors
+- - Mixins > fontStyle y flex
+- - Maps > fontsFamily.
+
 - Agregar animaciones con librerías como animate.css. o de scroll como AOS, o de forma manual usando keyframes, transitions y transform.
+- - Usado: degradé lineal en botón 'Enviar' en Contact.
 
 
 <br>
