@@ -1,0 +1,383 @@
+// Variables
+
+// Paleta de colores base
+$color-principal: #0b829a;
+$color-secundario: #095c78;
+$color-terciario: #a70a94;
+$color-destacado: #5e0754;
+$color-fondo: #f0eeed;
+$color-contenido: #c1d6e6;
+$color-texto: #003d51;
+
+// Colores de botones
+$color-textos-botones: $color-fondo;
+$color-botones-navBar: $color-secundario;
+$color-botones-fondo: $color-principal;
+$color-botones-hover: $color-destacado;
+$color-botones-active: $color-terciario;
+$color-sombras: $color-destacado;
+$color-border: $color-terciario;
+
+// Colores de textos
+$color-h1: $color-principal;
+$color-h2: $color-secundario;
+$color-h3: $color-terciario;
+$color-textos-p: $color-texto;
+$color-span: $color-terciario;
+$color-texto-hover: $color-secundario;
+$color-texto-active: $color-terciario;
+
+// font
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $color-fondo;
+  color: $color-textos-p;
+  text-align: center;
+  font-family: "Rubik", "Roboto", serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* HEADER + NAVBAR */
+
+header {
+  margin-top: 4px;
+}
+
+.logo {
+  width: 160px;
+  margin: 0 8px;
+}
+
+nav {
+  ul {
+    li {
+      display: inline-block;
+      padding: 4px 16px;
+      font-size: 22px;
+      margin-top: 6px;
+    }
+  }
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.listaNavbar {
+  list-style-type: none;
+}
+
+.botonNavBar,
+.botonListaTour {
+  color: $color-botones-navBar;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.botonNavBar {
+  padding: 8px 16px;
+  margin: 0 8px;
+  &:hover {
+    color: $color-botones-hover;
+    text-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
+  }
+}
+
+.active,
+.botonListaTour:active {
+  color: $color-botones-active;
+}
+
+.hamburguesaBoton {
+  border: 3px solid $color-botones-active;
+}
+
+.hamburguesaBoton[aria-expanded="true"] {
+  border: 2px solid $color-botones-hover;
+  background-color: $color-botones-active;
+  box-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Rubik", "Roboto", serif;
+  padding: 4px;
+}
+
+h1 {
+  color: $color-h1;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 24px;
+}
+
+h2 {
+  color: $color-h2;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+h3 {
+  color: $color-h3;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  color: $color-textos-p;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 4px;
+}
+
+.discos {
+  color: $color-span;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.articulos {
+  color: $color-textos-p;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/*BIO-HOME*/
+
+.bioContainer {
+  display: grid;
+  grid-template-areas:
+    "bioTitulo bioTitulo"
+    "articulo1 articulo1"
+    "articulo2 articulo2";
+  gap: 16px;
+}
+
+.bioTitulo {
+  grid-area: bioTitulo;
+}
+
+#articulo1 {
+  grid-area: articulo1;
+}
+
+#articulo2 {
+  grid-area: articulo2;
+}
+
+.fotosBio {
+  width: 300px;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+
+/*FOOTER*/
+
+footer {
+  margin-top: 16px;
+  text-align: center;
+  p {
+    font-size: 14px;
+  }
+}
+
+/*TOUR*/
+
+.listaTour {
+  list-style-type: none;
+  .botonListaTour:hover {
+    color: $color-botones-hover;
+    text-shadow: 0 0 8px $color-sombras;
+  }
+}
+
+.ulTour {
+  margin-right: 24px;
+}
+
+/*CONTACTO*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  label {
+    color: $color-h1;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+}
+
+input,
+textarea {
+  border-radius: 16px;
+  border: none;
+  background-color: $color-contenido;
+  width: 60%;
+  max-width: 400px;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+  &:focus {
+    outline: none;
+    border: 2px solid $color-border;
+    box-shadow: 2px 2px 2px $color-sombras;
+  }
+}
+
+.boton {
+  background-color: $color-botones-fondo;
+  color: $color-textos-botones;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 16px 0px;
+  &:hover {
+    background-color: $color-botones-hover;
+    box-shadow: 2px 2px 2px $color-sombras;
+  }
+  &:active {
+    background-color: $color-botones-active;
+  }
+}
+
+#mensaje {
+  resize: vertical;
+  min-height: 40px;
+}
+
+/*IMAGENES e ICONOS*/
+
+.fotosDeFondo {
+  width: 100%;
+  height: auto;
+}
+
+.tour-background {
+  background-image: url("../assets/img/fondoTour.png");
+}
+
+.contact-background {
+  background-image: url("../assets/img/fondoContact.png");
+}
+
+.tour-background,
+.contact-background {
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin: 0 16px;
+}
+
+.iconosRedes {
+  height: 32px;
+  padding: 0 16px;
+  margin: 8px;
+}
+
+.musicEdit,
+.videoEdit {
+  width: 70%;
+  height: 160px;
+  border-radius: 16px;
+  margin: 8px;
+}
+
+.arrow {
+  font-size: 40px;
+  font-weight: bold;
+  color: $color-botones-hover;
+  cursor: pointer;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-botones-hover;
+  }
+}
+
+.indicadores button {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 8px;
+}
+
+.indicadores .active {
+  background-color: $color-botones-active;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 450px) {
+  .logo {
+    width: 120px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .listContainer {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fotosBio {
+    width: 240px;
+  }
+
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 0 16px;
+  }
+}

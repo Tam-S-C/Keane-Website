@@ -8,7 +8,7 @@
 * Tutor Adjunto: Thiago Sosa
 * Alumna: Tamara S. Canzobre
 
-> Web realizada íntegramente con HTML y CSS.
+> Web realizada únicamente con HTML y CSS/SCSS.
 
 * Temática: KEANE banda de british pop.
 
@@ -19,6 +19,18 @@
 ![image](https://github.com/user-attachments/assets/1767df44-aa42-441c-ba84-d0ac373df9ed)
 ![Static Badge](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white)
 
+
+<h2>Pre-Entrega 3</h2>
+
+> Objetivos
+- Hacer un diseño 100% responsive para el sitio web.
+- Utilizar variables, nesting, mixins y funciones @extend/@include en Sass para reducir la duplicación de código y aumentar la modularidad con partials.
+- Agregar animaciones con librerías como animate.css. o de scroll como AOS, o de forma manual usando keyframes, transitions y transform.
+
+
+<br>
+
+<hr>
 
 <h2>Pre-Entrega 2</h2>
 
@@ -67,6 +79,8 @@
 <a href="https://postimg.cc/rdhVYpCy">
    <img src="https://i.postimg.cc/wvz1My1N/mob3.png" width="350" />
 </a>
+
+<hr>
 
 <h2>Pre-Entrega 1</h2>
 

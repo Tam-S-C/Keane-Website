@@ -1,6 +1,4 @@
-/*Font*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +15,6 @@ body {
 }
 
 /* HEADER + NAVBAR */
-
 header {
   margin-top: 4px;
 }
@@ -45,18 +42,24 @@ nav ul li {
   list-style-type: none;
 }
 
-.botonNavBar, .botonListaTour {
-  color: #003d51;
+.botonNavBar,
+.botonListaTour {
+  color: #095c78;
   font-weight: bold;
   text-decoration: none;
 }
 
-.botonNavBar:hover, .botonListaTour:hover{
-  color: #0a6482;
-  text-shadow: 2px 2px 2px #a70a9523;
+.botonNavBar {
+  padding: 8px 16px;
+  margin: 0 8px;
+}
+.botonNavBar:hover {
+  color: #5e0754;
+  text-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
 }
 
-.active, .botonListaTour:active {
+.active,
+.botonListaTour:active {
   color: #a70a94;
 }
 
@@ -64,14 +67,13 @@ nav ul li {
   border: 3px solid #a70a94;
 }
 
-.hamburguesaBoton[aria-expanded="true"] {
-  border: 2px solid #086e83;
+.hamburguesaBoton[aria-expanded=true] {
+  border: 2px solid #5e0754;
   background-color: #a70a94;
   box-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
 }
 
-/*MAIN*/
-
+/* MAIN */
 main {
   display: flex;
   flex-direction: column;
@@ -81,33 +83,35 @@ main {
   text-align: center;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: "Rubik", "Roboto", serif;
+  padding: 4px;
+}
+
+h1 {
+  color: #0b829a;
   font-weight: bold;
   font-size: 36px;
-  padding: 4px;
   margin-top: 24px;
 }
 
 h2 {
-  font-family: "Rubik", "Roboto", serif;
+  color: #095c78;
   font-size: 26px;
   font-weight: 200;
-  color: #086e83;
-  padding: 4px;
 }
 
 h3 {
-  font-family: "Rubik", "Roboto", serif;
+  color: #a70a94;
   font-size: 22px;
   font-weight: bold;
-  color: #a70a94;
-  padding: 4px;
 }
 
 p {
-  font-family:'Times New Roman', Times, serif ;
+  color: #003d51;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
+  font-weight: 200;
   padding: 4px;
 }
 
@@ -118,7 +122,7 @@ p {
 }
 
 .articulos {
-  color: #086e83;
+  color: #003d51;
   width: 60%;
   margin: auto;
   display: flex;
@@ -130,19 +134,16 @@ p {
 .tour {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
 }
 
 /*BIO-HOME*/
 .bioContainer {
   display: grid;
-  grid-template-areas: 
-    "bioTitulo bioTitulo"
-    "articulo1 articulo1"
-    "articulo2 articulo2";
-    gap: 16px;
+  grid-template-areas: "bioTitulo bioTitulo" "articulo1 articulo1" "articulo2 articulo2";
+  gap: 16px;
 }
 
 .bioTitulo {
@@ -164,35 +165,37 @@ p {
 }
 
 /*FOOTER*/
-
 footer {
   margin-top: 16px;
   text-align: center;
-
 }
-
 footer p {
   font-size: 14px;
 }
 
 /*TOUR*/
-
 .listaTour {
   list-style-type: none;
 }
+.listaTour .botonListaTour:hover {
+  color: #5e0754;
+  text-shadow: 0 0 8px #5e0754;
+}
+
+.ulTour {
+  margin-right: 24px;
+}
 
 /*CONTACTO*/
-
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 600px; 
+  max-width: 600px;
 }
-
 form label {
-  color: #086e83;
+  color: #0b829a;
   font-weight: bold;
   margin-top: 16px;
 }
@@ -208,21 +211,15 @@ textarea {
   padding: 8px;
   margin: 8px;
 }
-
-input:focus {
-  outline: none;
-  border: 2px solid #a70a94;
-  box-shadow: 2px 2px 2px #a70a94;
-}
-
+input:focus,
 textarea:focus {
   outline: none;
   border: 2px solid #a70a94;
-  box-shadow: 2px 2px 2px #a70a94;
+  box-shadow: 2px 2px 2px #5e0754;
 }
 
 .boton {
-  background-color: #086e83;
+  background-color: #0b829a;
   color: #f0eeed;
   font-weight: bold;
   font-size: 16px;
@@ -230,26 +227,23 @@ textarea:focus {
   padding: 8px;
   margin: 16px 0px;
 }
-
 .boton:hover {
+  background-color: #5e0754;
+  box-shadow: 2px 2px 2px #5e0754;
+}
+.boton:active {
   background-color: #a70a94;
 }
 
-.boton:active {
-  background-color: #5e0754;
-}
-
 #mensaje {
-    resize: vertical;
-    min-height: 40px;
+  resize: vertical;
+  min-height: 40px;
 }
 
 /*IMAGENES e ICONOS*/
-
 .fotosDeFondo {
   width: 100%;
   height: auto;
-  display: flex;
 }
 
 .tour-background {
@@ -260,7 +254,8 @@ textarea:focus {
   background-image: url("../assets/img/fondoContact.png");
 }
 
-.tour-background, .contact-background {
+.tour-background,
+.contact-background {
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
@@ -268,7 +263,7 @@ textarea:focus {
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: flex-start;
   text-align: center;
   margin: 0 16px;
@@ -280,13 +275,8 @@ textarea:focus {
   margin: 8px;
 }
 
+.musicEdit,
 .videoEdit {
-  width: 320px;
-  border-radius: 16px;
-  margin: 8px;
-}
-
-.musicEdit {
   width: 70%;
   height: 160px;
   border-radius: 16px;
@@ -296,8 +286,11 @@ textarea:focus {
 .arrow {
   font-size: 40px;
   font-weight: bold;
-  color: #a70a94;
+  color: #5e0754;
   cursor: pointer;
+}
+.arrow:hover, .arrow:focus, .arrow:active {
+  color: #5e0754;
 }
 
 .indicadores button {
@@ -310,42 +303,32 @@ textarea:focus {
   background-color: #a70a94;
 }
 
-.arrow:hover, .arrow:focus, .arrow:hover, .arrow:focus, .arrow:active, .arrow:active {
-  color: #4f0647;
-}
-
-
 /* MEDIA QUERIES */
-
 @media (max-width: 450px) {
   .logo {
     width: 120px;
     margin-left: auto;
   }
 }
-
 @media (max-width: 768px) {
   .listContainer {
     margin-right: 0px;
   }
 }
-
-@media (max-width: 1024px) {  
-
+@media (max-width: 1024px) {
   .fotosBio {
     width: 240px;
   }
-
   .articulos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
-  } 
-
-  h2{
+  }
+  h2 {
     font-size: 24px;
     padding: 0 16px;
   }
-
 }
+
+/*# sourceMappingURL=styles.css.map */
