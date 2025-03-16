@@ -8,17 +8,15 @@
 * Tutor Adjunto: Thiago Sosa
 * Alumna: Tamara S. Canzobre
 
-> Web realizada únicamente con HTML y CSS/SCSS.
-
-* Temática: KEANE banda de british pop.
-
 * Tecnologías:
+> Web realizada únicamente con HTML y CSS/SCSS.
 
 ![image](https://github.com/user-attachments/assets/09bb3851-8f1c-44b2-a0f1-330181e7aad1)
 ![image](https://github.com/user-attachments/assets/e27f4435-1fa4-43b0-93a4-9f2da115d562)
 ![image](https://github.com/user-attachments/assets/1767df44-aa42-441c-ba84-d0ac373df9ed)
 ![Static Badge](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white)
 
+* Temática: KEANE banda de british pop.
 
 <h2>Pre-Entrega 3</h2>
 
