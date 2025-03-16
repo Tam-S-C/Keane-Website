@@ -44,32 +44,18 @@
 
 - HOME
 
-<a href="https://postimg.cc/rdyyJ44Y">
-   <img src="https://i.postimg.cc/zfKLqSG5/desk1-1.png" width="800" />
-</a>
+| **HOME DESKTOP** | **HOME MOBILE** |
+|:--:|:--:|
+| ![HOME Desktop](https://i.postimg.cc/zfKLqSG5/desk1-1.png) | ![HOME Mobile](https://i.postimg.cc/kgV6pdr2/mob2-1.png) |
 
-<br>
-
-<a href="https://postimg.cc/0zsyzFyv">
-   <img src="https://i.postimg.cc/kgV6pdr2/mob2-1.png" width="350" />
-</a>
-
-<br>
 <br>
 
 - MUSIC
 
-<a href="https://postimg.cc/ZWxKpHWd">
-   <img src="https://i.postimg.cc/pLghN1xq/mob2-2.png" width="800" />
-</a>
+| **MUSIC DESKTOP** | **MUSIC MOBILE** |
+|:--:|:--:|
+| ![MUSIC Desktop](https://i.postimg.cc/pLghN1xq/mob2-2.png) | ![MUSIC Mobile](https://i.postimg.cc/Kvp3f8WX/desk1-2.png) |
 
-<br>
-
-<a href="https://postimg.cc/Lnfs62Rv">
-   <img src="https://i.postimg.cc/Kvp3f8WX/desk1-2.png" width="350" />
-</a>
-
-<br>
 <br>
 
 - MENU HAMBURGUESA DESPLEGADO (MOBILE)
