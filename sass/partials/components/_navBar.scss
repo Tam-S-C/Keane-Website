@@ -1,0 +1,62 @@
+/* HEADER + NAVBAR */
+
+header {
+    margin-top: 4px;
+  }
+  
+  .logo {
+    width: 200px;
+    margin: 0 8px;
+  }
+  
+  nav {
+    ul {
+      li {
+        display: inline-block;
+        padding: 4px 16px;
+        margin-top: 6px;
+        @include fontStyle(22px, bold);
+      }
+    }
+  }
+  
+  .listContainer {
+    @include flex(row);
+    margin-right: 150px;
+  }
+  
+  .listaNavbar {
+    list-style-type: none;
+  }
+  
+  .botonNavBar,
+  .botonListaTour {
+    color: $color-botones-navBar;
+    text-decoration: none;
+    @include fontStyle(18px, bold);
+  }
+  
+  .botonNavBar {
+    padding: 8px 16px;
+    margin: 0 8px;
+    &:hover {
+      color: $color-botones-hover;
+      text-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
+    }
+  }
+  
+  .active,
+  .botonListaTour:active {
+    color: $color-botones-active;
+  }
+  
+  .hamburguesaBoton {
+    border: 3px solid $color-botones-active;
+  }
+  
+  .hamburguesaBoton[aria-expanded="true"] {
+    border: 2px solid $color-botones-hover;
+    background-color: $color-botones-active;
+    box-shadow: 0 0 10px $color-sombras;
+  }
+  

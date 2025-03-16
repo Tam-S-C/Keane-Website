@@ -1,0 +1,53 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 450px) {
+    .logo {
+      width: 120px;
+      margin-left: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      width: 120px;
+      margin-left: auto;
+    }
+  
+    .listContainer {
+      margin-right: 0px;
+    }
+    nav ul li {
+      padding: 4px 0;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .logo {
+      width: 160px;
+      margin-left: auto;
+    }
+  
+    .fotosBio {
+      width: 240px;
+    }
+  
+    .listContainer {
+      margin-right: 0px;
+    }
+  
+    nav ul li {
+      padding: 4px 0;
+      font-size: 18px;
+    }
+  
+    .articulos {
+      @include flex(column);
+      gap: 4px;
+    }
+  
+    h2 {
+      font-size: 24px;
+      padding: 0 16px;
+    }
+  }
+  

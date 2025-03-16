@@ -1,0 +1,32 @@
+/*IMAGENES e ICONOS*/
+
+.fotosDeFondo {
+  width: 100%;
+  height: auto;
+}
+
+.tour-background {
+  background-image: url("../assets/img/fondoTour.png");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  margin: 0 16px;
+}
+
+.contact-background {
+  background-image: url("../assets/img/fondoContact.png");
+  @extend .tour-background;
+}
+
+.iconosRedes {
+  height: 32px;
+  padding: 0 16px;
+  margin: 8px;
+}

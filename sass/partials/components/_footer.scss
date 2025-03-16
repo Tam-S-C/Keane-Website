@@ -1,0 +1,10 @@
+/*FOOTER*/
+
+footer {
+    margin-top: 16px;
+    text-align: center;
+    p {
+      font-family: map-get($map-fontsFamily, "Roboto");
+      @include fontStyle(16px, 200);
+    }
+  }

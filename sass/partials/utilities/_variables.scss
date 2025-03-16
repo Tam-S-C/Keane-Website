@@ -1,0 +1,28 @@
+// Variables
+
+// Paleta de colores base
+$color-principal: #0b829a;
+$color-secundario: #095c78;
+$color-terciario: #a70a94;
+$color-destacado: #5e0754;
+$color-fondo: #f0eeed;
+$color-contenido: #c1d6e6;
+$color-texto: #003d51;
+
+// Colores de botones
+$color-textos-botones: $color-fondo;
+$color-botones-navBar: $color-secundario;
+$color-botones-fondo: $color-principal;
+$color-botones-hover: $color-destacado;
+$color-botones-active: $color-terciario;
+$color-sombras: $color-destacado;
+$color-border: $color-terciario;
+
+// Colores de textos
+$color-h1: $color-principal;
+$color-h2: $color-secundario;
+$color-h3: $color-terciario;
+$color-textos-p: $color-texto;
+$color-span: $color-terciario;
+$color-texto-hover: $color-secundario;
+$color-texto-active: $color-terciario;

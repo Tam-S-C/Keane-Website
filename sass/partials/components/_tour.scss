@@ -1,0 +1,13 @@
+/*TOUR*/
+
+.listaTour {
+    list-style-type: none;
+    .botonListaTour:hover {
+      color: $color-botones-hover;
+      text-shadow: 0 0 8px $color-sombras;
+    }
+  }
+  
+  .ulTour {
+    margin-right: 24px;
+  }

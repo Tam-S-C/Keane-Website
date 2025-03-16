@@ -1,9 +1,13 @@
+/* RESET */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Tipografia */
+/* Mixins */
+/* Maps */
 body {
   background-color: #f0eeed;
   color: #003d51;
@@ -257,6 +261,37 @@ textarea:focus {
   min-height: 40px;
 }
 
+.musicEdit, .videoEdit {
+  width: 70%;
+  height: 160px;
+  border-radius: 16px;
+  margin: 8px;
+}
+
+.videoEdit {
+  height: 240px;
+}
+
+.arrow {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5e0754;
+  cursor: pointer;
+}
+.arrow:hover, .arrow:focus, .arrow:active {
+  color: #5e0754;
+}
+
+.indicadores button {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 8px;
+}
+
+.indicadores .active {
+  background-color: #a70a94;
+}
+
 /*IMAGENES e ICONOS*/
 .fotosDeFondo {
   width: 100%;
@@ -286,37 +321,6 @@ textarea:focus {
   height: 32px;
   padding: 0 16px;
   margin: 8px;
-}
-
-.musicEdit, .videoEdit {
-  width: 70%;
-  height: 160px;
-  border-radius: 16px;
-  margin: 8px;
-}
-
-.videoEdit {
-  width: 80%;
-}
-
-.arrow {
-  font-size: 40px;
-  font-weight: bold;
-  color: #5e0754;
-  cursor: pointer;
-}
-.arrow:hover, .arrow:focus, .arrow:active {
-  color: #5e0754;
-}
-
-.indicadores button {
-  width: 12px;
-  height: 12px;
-  margin-bottom: 8px;
-}
-
-.indicadores .active {
-  background-color: #a70a94;
 }
 
 /* MEDIA QUERIES */

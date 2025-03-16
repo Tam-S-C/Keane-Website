@@ -1,0 +1,50 @@
+/*CONTACTO*/
+
+form {
+    @include flex(column);
+    width: 100%;
+    max-width: 600px;
+    label {
+      color: $color-h1;
+      @include fontStyle(16px, bold);
+      margin-top: 16px;
+    }
+  }
+  
+  input,
+  textarea {
+    background-color: $color-contenido;
+    border-radius: 16px;
+    border: none;
+    width: 60%;
+    max-width: 400px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+    &:focus {
+      outline: none;
+      border: 2px solid $color-border;
+      box-shadow: 2px 2px 2px $color-sombras;
+    }
+  }
+  
+  .boton {
+    background-color: $color-botones-fondo;
+    color: $color-textos-botones;
+    border-radius: 16px;
+    @include fontStyle(16px, bold);
+    padding: 8px;
+    margin: 16px 0px;
+    &:hover {
+      background-color: $color-botones-hover;
+      box-shadow: 2px 2px 2px $color-sombras;
+    }
+    &:active {
+      background-color: $color-botones-active;
+    }
+  }
+  
+  #mensaje {
+    resize: vertical;
+    min-height: 40px;
+  }

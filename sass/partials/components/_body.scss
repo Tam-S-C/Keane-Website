@@ -1,0 +1,9 @@
+body {
+    background-color: $color-fondo;
+    color: $color-textos-p;
+    font-family: map-get($map-fontsFamily, "Rubik");
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
