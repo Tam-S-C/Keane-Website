@@ -160,7 +160,7 @@ p {
 
 .articulos {
   color: $color-textos-p;
-  width: 60%;
+  width: 62%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -183,7 +183,9 @@ p {
   grid-template-areas:
     "bioTitulo bioTitulo"
     "articulo1 articulo1"
-    "articulo2 articulo2";
+    "articulo2 articulo2"
+    "articulo3 articulo3"
+    "articulo4 articulo4";
   gap: 16px;
 }
 
@@ -199,8 +201,16 @@ p {
   grid-area: articulo2;
 }
 
+#articulo3 {
+  grid-area: articulo3;
+}
+
+#articulo4 {
+  grid-area: articulo4;
+}
+
 .fotosBio {
-  width: 300px;
+  width: 320px;
   border-radius: 16px;
   margin-top: 16px;
 }
