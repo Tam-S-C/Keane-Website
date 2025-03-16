@@ -29,7 +29,8 @@
 - - Maps > fontsFamily.
 
 - Agregar animaciones con librerías como animate.css. o de scroll como AOS, o de forma manual usando keyframes, transitions y transform.
-- - Usado: degradé lineal en botón 'Enviar' en Contact.
+- - Degradé lineal en botón 'Enviar' en Contact.
+- - Transform y transition: en fotos del home.
 
 
 <br>

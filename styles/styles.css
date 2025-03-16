@@ -329,6 +329,13 @@ footer p {
   margin: 8px;
 }
 
+.pictureBio {
+  transition: ease 0.5s;
+}
+.pictureBio:hover {
+  transform: scale(1.1);
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 450px) {
   .logo {
