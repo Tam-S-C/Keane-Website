@@ -1,7 +1,7 @@
 <h1><img src="https://img.shields.io/badge/CURSO-DESARROLLO WEB-32286E?logo=null&logoColor=black&style=flat" width="240" height="32"/></h1>
 
 > DEPLOY: https://tam-s-c.github.io/Keane-Website/
-https://keane-webmusic.netlify.app/
+> Netlify: https://keane-webmusic.netlify.app/
 * Temática: KEANE banda de british pop.
 
 > CODERHOUSE > Comisión: 69175
