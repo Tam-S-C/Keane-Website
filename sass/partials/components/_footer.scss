@@ -6,5 +6,7 @@ footer {
     p {
       font-family: map-get($map-fontsFamily, "Roboto");
       @include fontStyle(16px, 200);
+      padding: 0px;
+      margin: 0px;
     }
   }

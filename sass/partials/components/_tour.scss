@@ -18,3 +18,9 @@
     text-decoration: none;
     @include fontStyle(18px, bold);
   }
+
+  .tour {
+    @include flex(column);
+    margin-bottom: 16px;
+  }
+  

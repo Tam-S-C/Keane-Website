@@ -11,14 +11,65 @@
 /* Mixins */
 /* Maps */
 /*Components*/
-body {
+/*Template general*/
+.containerTemplate {
   background-color: #f0eeed;
   color: #003d51;
   font-family: "Rubik", "serif";
   text-align: center;
-  min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+/*BIO-HOME*/
+.bioContainer {
+  display: grid;
+  grid-template-areas: "bioTitulo bioTitulo" "articulo1 articulo1" "articulo2 articulo2" "articulo3 articulo3" "articulo4 articulo4";
+  gap: 16px;
+}
+
+.bioTitulo {
+  grid-area: bioTitulo;
+}
+
+.articulo1 {
+  grid-area: articulo1;
+}
+
+.articulo2 {
+  grid-area: articulo2;
+}
+
+.articulo3 {
+  grid-area: articulo3;
+}
+
+.articulo4 {
+  grid-area: articulo4;
+}
+
+.fotosBio {
+  width: 320px;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+
+.discos {
+  color: #a70a94;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.articulos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #003d51;
+  width: 62%;
+  margin: auto;
+  gap: 16px;
 }
 
 /* HEADER + NAVBAR */
@@ -121,65 +172,6 @@ p {
   padding: 4px;
 }
 
-.discos {
-  color: #a70a94;
-  font-style: italic;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.articulos {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: #003d51;
-  width: 62%;
-  margin: auto;
-  gap: 16px;
-}
-
-.tour {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 16px;
-}
-
-/*BIO-HOME*/
-.bioContainer {
-  display: grid;
-  grid-template-areas: "bioTitulo bioTitulo" "articulo1 articulo1" "articulo2 articulo2" "articulo3 articulo3" "articulo4 articulo4";
-  gap: 16px;
-}
-
-.bioTitulo {
-  grid-area: bioTitulo;
-}
-
-#articulo1 {
-  grid-area: articulo1;
-}
-
-#articulo2 {
-  grid-area: articulo2;
-}
-
-#articulo3 {
-  grid-area: articulo3;
-}
-
-#articulo4 {
-  grid-area: articulo4;
-}
-
-.fotosBio {
-  width: 320px;
-  border-radius: 16px;
-  margin-top: 16px;
-}
-
 /*TOUR*/
 .listaTour {
   list-style-type: none;
@@ -199,6 +191,14 @@ p {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+}
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
 }
 
 /*CONTACTO*/
@@ -298,6 +298,8 @@ footer p {
   font-family: "Roboto", "serif";
   font-size: 16px;
   font-weight: 200;
+  padding: 0px;
+  margin: 0px;
 }
 
 /*IMAGENES e ICONOS*/
