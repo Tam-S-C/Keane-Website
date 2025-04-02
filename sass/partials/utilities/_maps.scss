@@ -1,7 +1,15 @@
 /* Maps */
 
-$map-fontsFamily: (
-  "Rubik": ("Rubik", "serif"),
-  "Roboto": ("Roboto", "serif"),
-  "Times": ("Times New Roman", "serif")
+$colores: (
+  principal: #0b829a,
+  secundario: #095c78,
+  terciario: #a70a94,
+  destacado: #5e0754,
+  fondo: #f0eeed,
+  contenido: #c1d6e6,
+  texto: #003d51,
+  gradiente-boton: linear-gradient(to bottom, #0b829a, #095c78),
+  gradiente-boton-hover: linear-gradient(to bottom, #a70a94, #5e0754),
+  sombras: destacado,
+  borde: terciario,
 );

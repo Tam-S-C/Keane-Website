@@ -5,7 +5,7 @@ form {
     width: 100%;
     max-width: 600px;
     label {
-      color: $color-h1;
+      color: map-get($colores, principal);
       @include fontStyle(16px, bold);
       margin-top: 16px;
     }
@@ -13,7 +13,7 @@ form {
   
   input,
   textarea {
-    background-color: $color-contenido;
+    background-color: map-get($colores, contenido);
     border-radius: 16px;
     border: none;
     width: 60%;
@@ -23,26 +23,28 @@ form {
     margin: 8px;
     &:focus {
       outline: none;
-      border: 2px solid $color-border;
-      box-shadow: 2px 2px 2px $color-sombras;
+      border: 2px solid map-get($colores, border);
+      box-shadow: 2px 2px 2px map-get($colores, sombras);
     }
   }
   
   .boton {
-    background: $color-grad-botones-fondo;
-    color: $color-textos-botones;
+    background: map-get($colores, gradiente-boton);
+    color: map-get($colores, fondo);
     border-radius: 16px;
     @include fontStyle(16px, bold);
     padding: 8px;
     margin: 16px 0px;
+
     &:hover {
-      background: $color-grad-botones-hover;
-      box-shadow: 2px 2px 2px $color-sombras;
+      background: map-get($colores, gradiente-boton-hover);
+      box-shadow: 2px 2px 2px map-get($colores, sombras);
     }
+
     &:active {
-      background-color: $color-botones-active;
+      background-color: map-get($colores, terciario);
     }
-  }
+}
   
   #mensaje {
     resize: vertical;

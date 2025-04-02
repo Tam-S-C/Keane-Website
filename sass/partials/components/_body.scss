@@ -1,8 +1,8 @@
 /*Template general*/
 .containerTemplate {
-    background-color: $color-fondo;
-    color: $color-textos-p;
-    font-family: map-get($map-fontsFamily, "Rubik");
+    background-color: map-get($colores, fondo);
+    color: map-get($colores, texto);
+    font-family: $fontSecundaria;
     text-align: center;
     display: grid;
     grid-template-rows: auto 1fr auto;

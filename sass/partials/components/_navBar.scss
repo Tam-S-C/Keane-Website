@@ -16,6 +16,7 @@ header {
         padding: 2px 16px;
         margin-top: 6px;
         @include fontStyle(36px, bold);
+        font-family: $fontTitulos;
       }
     }
   }
@@ -30,29 +31,29 @@ header {
   }
   
   .botonNavBar{
-    color: $color-botones-navBar;
+    color: map-get($colores, secundario);
     text-decoration: none;
     @include fontStyle(24px, bold);
     padding: 2px 12px;
     margin: 0 8px;
     transition: ease 0.5s;
     &:hover {
-      color: $color-botones-hover;
+      color: map-get($colores, terciario);
       text-shadow: 0 0 10px rgba(167, 10, 148, 0.5);
     }
   }
   
   .active{
-    color: $color-botones-active;
+    color: map-get($colores, terciario);
   }
   
   .hamburguesaBoton {
-    border: 3px solid $color-botones-active;
+    border: 3px solid map-get($colores, borde);
   }
   
   .hamburguesaBoton[aria-expanded="true"] {
-    border: 2px solid $color-botones-hover;
-    background-color: $color-botones-active;
-    box-shadow: 0 0 10px $color-sombras;
+    border: 2px solid map-get($colores, borde);
+    background-color: map-get($colores, terciario);
+    box-shadow: 0 0 10px map-get($colores, destacado);
   }
   

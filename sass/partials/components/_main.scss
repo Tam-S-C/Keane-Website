@@ -7,29 +7,29 @@ main {
 }
 
 h1, h2, h3 {
-  font-family: map-get($map-fontsFamily, "Rubik");
+  font-family: $fontTitulos;
   padding: 4px;
 }
 
 h1 {
-  color: $color-h1;
+  color: map-get($colores, principal);
   margin-top: 24px;
   @include fontStyle(36px, bold);
 }
 
 h2 {
-  color: $color-h2;
+  color: map-get($colores, secundario);
   @include fontStyle(26px, 200);
 }
 
 h3 {
-  color: $color-h3;
+  color: map-get($colores, terciario);
   @include fontStyle(22px, bold);
 }
 
 p {
-  color: $color-textos-p;
-  font-family: map-get($map-fontsFamily, "Times");
+  color: map-get($colores, texto);
+  font-family: $fontParrafos;
   @include fontStyle(18px, 200);
   padding: 4px;
 }

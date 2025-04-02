@@ -13,13 +13,14 @@
 }
 
 .arrow {
-  @include fontStyle(40px, bold);
-  color: $color-botones-hover;
+  font-family: $fontTitulos;
+  @include fontStyle(32px, 800);
+  color: map-get($colores, terciario);
   cursor: pointer;
   &:hover,
   &:focus,
   &:active {
-    color: $color-botones-hover;
+    color: map-get($colores, terciario);
   }
 }
 
@@ -30,5 +31,5 @@
 }
 
 .indicadores .active {
-  background-color: $color-botones-active;
+  color: map-get($colores, terciario);
 }

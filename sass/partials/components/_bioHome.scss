@@ -38,14 +38,14 @@
   }
 
   .discos {
-    color: $color-span;
+    color: map-get($colores, terciario);
     font-style: italic;
     @include fontStyle(18px, bold);
   }
   
   .articulos {
     @include flex(row);
-    color: $color-textos-p;
+    color: map-get($colores, texto);
     width: 62%;
     margin: auto;
     gap: 16px;

@@ -3,8 +3,8 @@
 .listaTour {
     list-style-type: none;
     .botonListaTour:hover {
-      color: $color-botones-hover;
-      text-shadow: 0 0 8px $color-sombras;
+      color: map-has-key($colores, terciario);
+      text-shadow: 0 0 8px map-get($colores, destacado);
       transition: ease 0.5s;
     }
   }
@@ -14,7 +14,7 @@
   }
 
   .botonListaTour {
-    color: $color-botones-navBar;
+    color: map-get($colores, secundario);
     text-decoration: none;
     @include fontStyle(18px, bold);
   }
