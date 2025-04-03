@@ -19,6 +19,25 @@
 ![Static Badge](https://img.shields.io/badge/Sass-%23CC6699?logo=sass&logoColor=white)
 
 <hr>
+<h2>ENTREGA FINAL</h2>
+
+> Objetivos
+- Aplicar técnicas de SEO
+
+- Hacer un diseño 100% responsive para el sitio web.
+
+- Realizar la estructura completa de tu sitio web.
+
+- Efectuar el estilo final de la web.
+
+- Implementar todas las técnicas utilizadas hasta el momento, como SASS, Grids, Flexbox, etc.
+
+- Disponibilizar el proyecto al público a través de un servidor:
+> Netlify: https://keane-webmusic.netlify.app/
+
+<br>
+
+<hr>
 
 <h2>Pre-Entrega 3</h2>
 
