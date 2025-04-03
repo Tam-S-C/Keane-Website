@@ -202,6 +202,23 @@ p {
   margin-bottom: 16px;
 }
 
+.contenedorListaIMG {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.fotosTour {
+  width: 150px;
+  margin-top: 16px;
+  border-radius: 16px;
+  transition: ease 0.5s;
+}
+.fotosTour:hover {
+  transform: scale(1.1);
+}
+
 /*CONTACTO*/
 form {
   display: flex;
