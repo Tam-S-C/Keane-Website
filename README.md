@@ -38,6 +38,7 @@
 - Aplicar accesibilidad:
 - - Contrastes de color AA+
 
+| **Títulos botones preguntas frecuentes** | **Texto párrafos** |
 |:--:|:--:|
 | [![accesibilidad-Contraste-Color1.png](https://i.postimg.cc/2jKbBwHC/accesibilidad-Contraste-Color1.png)](https://postimg.cc/fkYTGxnP) | [![accesibilidad-Contraste-Color2.png](https://i.postimg.cc/vHx17Vjf/accesibilidad-Contraste-Color2.png)](https://postimg.cc/w7HTg79j) |
 
