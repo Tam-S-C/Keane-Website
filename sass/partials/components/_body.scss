@@ -4,6 +4,4 @@
     color: map-get($colores, texto);
     font-family: $fontSecundaria;
     text-align: center;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
   }

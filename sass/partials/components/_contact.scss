@@ -59,10 +59,16 @@ form {
     padding: 16px;
     margin: 0;
     font-size: 20px;
+    width: 60vw;
+    max-width: 800px;
+    margin: auto; 
   }
 
   .respuesta {
     @include fontStyle(16px, bold);
     color: map-get($colores, principal);
+    width: 60vw;
+    max-width: 800px;
+    margin: auto; 
   }
 
