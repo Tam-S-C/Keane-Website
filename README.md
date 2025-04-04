@@ -22,7 +22,7 @@
 <h2>ENTREGA FINAL</h2>
 
 > Objetivos
-- Aplicar técnicas de SEO
+- Aplicar técnicas de SEO.
 
 - Hacer un diseño 100% responsive para el sitio web.
 
@@ -34,6 +34,16 @@
 
 - Disponibilizar el proyecto al público a través de un servidor:
 > Netlify: https://keane-webmusic.netlify.app/
+
+- Aplicar accesibilidad:
+- - Contrastes de color AA+
+
+|:--:|:--:|
+
+| [![accesibilidad-Contraste-Color1.png](https://i.postimg.cc/2jKbBwHC/accesibilidad-Contraste-Color1.png)](https://postimg.cc/fkYTGxnP) 
+
+| [![accesibilidad-Contraste-Color2.png](https://i.postimg.cc/vHx17Vjf/accesibilidad-Contraste-Color2.png)](https://postimg.cc/w7HTg79j) | 
+
 
 <br>
 
