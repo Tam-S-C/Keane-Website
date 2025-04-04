@@ -42,6 +42,11 @@
 |:--:|:--:|
 | [![accesibilidad-Contraste-Color2.png](https://i.postimg.cc/vHx17Vjf/accesibilidad-Contraste-Color2.png)](https://postimg.cc/w7HTg79j) | [![accesibilidad-Contraste-Color1.png](https://i.postimg.cc/2jKbBwHC/accesibilidad-Contraste-Color1.png)](https://postimg.cc/fkYTGxnP) |
 
+- Chequeo de SEO:
+- - Sólo 2 "críticos" de seguridad.
+
+[![SEOcheck.png](https://i.postimg.cc/nz1WPrP1/SEOcheck.png)](https://postimg.cc/HcV3JYHJ)
+
 <br>
 
 <hr>
