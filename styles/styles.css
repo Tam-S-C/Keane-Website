@@ -415,6 +415,12 @@ footer p {
     width: 160px;
     margin-left: auto;
   }
+  .listaTour, .botonListaTour {
+    font-size: 13px;
+  }
+  .fotosTour {
+    width: 80px;
+  }
 }
 @media (max-width: 768px) {
   .logo {
@@ -422,6 +428,12 @@ footer p {
   }
   .listContainer {
     margin-right: 0px;
+  }
+  .listaTour, .botonListaTour {
+    font-size: 14px;
+  }
+  .fotosTour {
+    width: 100px;
   }
 }
 @media (max-width: 1024px) {
