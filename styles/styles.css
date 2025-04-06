@@ -65,7 +65,7 @@
   align-items: center;
   justify-content: center;
   color: #003d51;
-  width: 62%;
+  width: 60%;
   margin: auto;
   gap: 16px;
 }
@@ -420,6 +420,9 @@ footer p {
   }
   .fotosTour {
     width: 80px;
+  }
+  .fotosBio {
+    width: 200px;
   }
 }
 @media (max-width: 768px) {
