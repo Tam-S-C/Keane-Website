@@ -46,7 +46,7 @@
   .articulos {
     @include flex(row);
     color: map-get($colores, texto);
-    width: 60%;
+    width: 68%;
     margin: auto;
     gap: 16px;
   }

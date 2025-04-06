@@ -65,7 +65,7 @@
   align-items: center;
   justify-content: center;
   color: #003d51;
-  width: 60%;
+  width: 68%;
   margin: auto;
   gap: 16px;
 }
@@ -416,10 +416,10 @@ footer p {
     margin-left: auto;
   }
   .listaTour, .botonListaTour {
-    font-size: 13px;
+    font-size: 12px;
   }
   .fotosTour {
-    width: 80px;
+    width: 72px;
   }
   .fotosBio {
     width: 200px;
@@ -437,6 +437,12 @@ footer p {
   }
   .fotosTour {
     width: 100px;
+  }
+  .pBio, .discos {
+    font-size: 12px;
+  }
+  .articulos {
+    width: 44%;
   }
 }
 @media (max-width: 1024px) {
